@@ -4,7 +4,13 @@ Hello! This is a hiring project for our [Laravel Livewire position](https://fly.
 
 ## The Job
 
-[Fly.io](https://fly.io) is adding a Laravel focused group to the team! Why are we doing this? [Laravel Livewire](https://laravel-livewire.com/) simplifies the development process and makes it easier to creates dynamic interfaces. This is important and valuable to Fly.io because Livewire works even better when deployed on Fly.io servers that are physically close to the users. We believe the Fly.io platform is an incredible place to deploy and run Laravel Livewire full-stack apps. A lot of this job is promoting Livewire to Laravel developers. It involves helping them to see how Livewire represents a technology shift that brings with it a lot of business and developer benefits.
+Fly.io sponsors the Laravel [Livewire](https://laravel-livewire.com/) project, and now we're hiring Laravel people.
+
+Here's Fly.io's not-so-secret evil plan. We make it easy to run full-stack apps --- any app, in any framework --- close to your users. We're a simple and powerful way to run any application, with modern dev UX, advanced Postgres deployments with replication, and app scaling knobs that don't require you to learn Terraform to use. But we're especially shiny for frameworks that benefit from geographic distribution, like Elixir's [LiveView](https://fly.io/blog/how-we-got-to-liveview/) and Laravel's Livewire. We want those kinds of frameworks to succeed, because the better they do, the more valuable we are.
+
+We want Fly.io to be the best place on the Internet to run Laravel apps, and especially Livewire. If you're a Laravel developer that's enthusiastic about Livewire, we need your help.
+
+You can read more about the [job posting here](https://fly.io/blog/fly-io-is-hiring-laravel-specialists/). This is the project for applying.
 
 ## Hiring Project
 
