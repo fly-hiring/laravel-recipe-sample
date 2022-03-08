@@ -20,6 +20,27 @@ Add a self-serve diagnostic tool to a simple Livewire page. The user can check a
 
 The ping time displays in milliseconds. The ping is run once a second. Using Livewire server-side rendering, the server updates the page to display the user's ping time.
 
+### PING Explanation
+
+A quick explanation of a network PING and what this means.
+
+![Network ICMP Ping process graphic](./network-ping-process.png)
+
+The PING is initiated from the client. It measures the roundtrip network time to get from the client, to the server, and back to the client. Ping times will be higher when the distance travelled is greater or the server is less responsive because of load.
+
+The idea with a ping is this:
+
+- Client initiates the process by sending an "echo" request. You can think of it as simply "just reply back that you got my request".
+- Server responds that the request was received.
+- Client knows the local time of the first sent request and the local time of when the server response was received. Client computes the difference and this is the "ping time".
+- Ping time is displayed.
+
+Here is one possible way the process could be described when implemented in a server-rendered framework.
+
+![Server Rendered Network Ping graphic](./server-rendered-ping-suggestion.png)
+
+### Submissions
+
 Submissions should include a written "recipe" blog post that explains the problem being solved and shows the solution for how to do it. The goal with the recipe is to help a Laravel developer figure out how to add something like this to their own project. More details are included on the recipe format and what that means.
 
 We expect this to take some time to complete. If you're experienced this should take about 2-3 hours.
