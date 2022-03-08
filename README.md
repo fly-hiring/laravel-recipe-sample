@@ -18,7 +18,7 @@ We would like you to create a "recipe" blog post that a Laravel Liwewire develop
 
 Add a self-serve diagnostic tool to a simple Livewire page. The user can check a checkbox, click a button or take some other action to start displaying their ping time to the server on the page.
 
-The ping time displays in milliseconds. The ping is run once a second. Using Livewire server-side rendering, the server updates the page to display the user's ping time.
+The ping is run once a second. Using Livewire server-side rendering or rendered directly on the client, the user's ping time is displayed in milliseconds.
 
 ### PING Explanation
 
