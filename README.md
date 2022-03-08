@@ -22,7 +22,7 @@ The ping time displays in milliseconds. The ping is run once a second. Using Liv
 
 ### PING Explanation
 
-A quick explanation of a network PING and what this means.
+A quick explanation of a [network PING](https://www.activexperts.com/network-component/tutorials/ping/) and what this means.
 
 ![Network ICMP Ping process graphic](./network-ping-process.png)
 
