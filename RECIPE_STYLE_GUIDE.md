@@ -12,6 +12,7 @@ Here's what we're looking for in a recipe:
     - You are the reader's guide, walking with them on the journey. Use language like "we can…" and "let's change this…".
     - Be technical. It's good to show code and explain things.
     - Use diagrams, screenshots, animated GIFs, or short videos when it helps clarify an important point. Don't go overboard with them, try to limit them to the most important points or concepts. Prefer GIFs over video for short quick things. They auto-play and are trivial to make and embed.
+      - Diagrams can use something as simple as [Excalidraw](https://excalidraw.com/). They don't have to feel refined.
     - Assume the reader is already familiar with the framework. You're not starting from zero.
     - Use simple, clear language. Don't be unnecessarily wordy.
     - Keep code snippets concise and relevant. Avoid including details that aren't actually relevant to the problem or solution.
