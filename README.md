@@ -47,7 +47,9 @@ We expect this to take some time to complete. If you're experienced this should 
 
 This is built to help us evaluate applicants but also for you to determine if this type of work interests you.
 
-Resources you may find helpful:
+When you are ready to share your article with us, please submit it as a PR on the Github repo you are invited to.
+
+### Resources you may find helpful
 
 - [Fly Docs](https://fly.io/docs/introduction/)
 - [Fly Getting Started Guides](https://fly.io/docs/getting-started/)
