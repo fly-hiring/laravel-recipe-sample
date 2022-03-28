@@ -16,9 +16,24 @@ You can read more about the [job posting here](https://fly.io/blog/fly-io-is-hir
 
 We would like you to create a "recipe" blog post that a Laravel Liwewire developer could read and follow to add a specific feature to their own project. Here is the recipe we'd like you to create.
 
-Add a self-serve diagnostic tool to a simple Livewire page. The user can check a checkbox, click a button or take some other action to start displaying their ping time to the server on the page.
+Add a self-serve diagnostic tool to a simple Livewire page. The tool measures the network ping time between the browser and the server rendering the page.
 
-The ping is run once a second. Using Livewire server-side rendering or rendered directly on the client, the user's ping time is displayed in milliseconds.
+Feature description:
+
+- User checks a checkbox, clicks a button or takes some other action to start displaying the ping time.
+- Once activated, the ping runs once a second.
+- The ping time is displayed in milliseconds.
+- The ping measures the full network transfer time between the browser and the server.
+
+### Why a ping?
+
+Laravel Livewire lets developers create dynamic applications that are server rendered without needing to write custom javascript or using front-ends like React or Vue. When the server is dynamically rendering the page, then the total network response time becomes important. It directly impacts the user's experience! Longer network transfer times mean a less responsive application.
+
+At Fly.io, we're all about moving the servers closer to the users! When server are geographically closer to users, it greatly reduces the network latency, improves the user experience, and makes Livewire even more valuable! This project is about helping to measure and visually display the ping time from the browser to the server and back to the browser.
+
+### What we're looking for
+
+We are looking for well written recipe articles that really highlight and use the Livewire framework. Yes, this feature could be done by writing custom javascript, but one of the benefits of Livewire is that developers don't _need_ to write custom Javascript. We'd like to see the Livewire framework used on the server and browser.
 
 ### PING Explanation
 
@@ -47,7 +62,7 @@ We expect this to take some time to complete. If you're experienced this should 
 
 This is built to help us evaluate applicants but also for you to determine if this type of work interests you.
 
-When you are ready to share your article with us, please submit it as a PR on the Github repo you are invited to.
+When you are ready to share your article with us, please submit it as a PR on the Github repo you are invited to and let us know it's ready!
 
 ### Resources you may find helpful
 
@@ -61,7 +76,8 @@ See the [recipe style guide](./RECIPE_STYLE_GUIDE.md) for specific recipe format
 
 In short, here are some of the things we care about:
 
-- Writing that helps engage and interest the reader.
+- Writing engages and interests the reader.
+- It follows the [recipe style guide](./RECIPE_STYLE_GUIDE.md)
 - Good technical quality.
 - Simple and clear language.
 - Easy to follow.
